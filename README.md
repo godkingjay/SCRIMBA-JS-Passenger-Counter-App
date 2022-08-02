@@ -27,10 +27,8 @@ Build an interactive app that counts and shows the number of people in a station
 
 ### Links
 
-- Solution URL:
-  --->[LINK](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-html-css-js-efe9aHX_90)
 - Live Site URL:
-  --->[LINK](https://godkingjay.github.io/frontendmentor.io_Interactive-rating-component/)
+  --->[LINK](https://godkingjay.github.io/SCRIMBA-JS-Passenger-Counter-App/)
 
 ## My process
 
