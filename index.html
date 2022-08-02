@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>SCRIMBA | Passenger Counter App</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script type="text/javascript" src="incdec.js"></script>
+
+    </head>
+
+    <body onload="loadDoc()">
+
+        <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+        <h3 id="action-message">No people!</h3>
+
+        <div class="button-field">
+            <button class="red-button" onclick="increment()">INCREMENT</button>
+            <button class="blue-button" onclick="decrement()">DECREMENT</button>
+            <button class="green-button" onclick="saveCountConfirmation()">SAVE</button>
+        </div>
+
+        <h3 id="previous-entries"></h3>
+
+        <section id="pop-up-save" class="hide">
+            <div class="box">
+                <h1>Save count?</h1>
+                <div class="confirm-field">
+                    <button class="green-button" onclick="saveCount()">YES</button>
+                    <button class="red-button" onclick="saveCancel()">NO</button>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>

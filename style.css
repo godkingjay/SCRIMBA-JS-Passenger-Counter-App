@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-inline: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 5px;
+    border: solid 1px #00000000;
+    transition: all 0.5s ease-in-out;
+}
+
+.red-button {
+    background: darkred;
+}
+
+.red-button:hover {
+    background: whitesmoke;
+    border-color: darkred;
+    color: darkred;
+}
+
+.blue-button {
+    background: darkblue;
+}
+
+.blue-button:hover {
+    background: whitesmoke;
+    border-color: darkblue;
+    color: darkblue;
+}
+
+.green-button {
+    background: darkgreen;
+}
+
+.green-button:hover {
+    background: whitesmoke;
+    border-color: darkgreen;
+    color: darkgreen;
+}
+
+.button-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-block: 20px;
+}
+
+.button-field > * {
+    margin: auto;
+}
+
+#pop-up-save {
+    height: 100vh;
+    width: 100vw;
+    background: #00000080;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: max-content;
+    width: max-content;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.box > h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.confirm-field {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.confirm-field > * {
+    margin: auto;
+}
+
+.hide {
+    display: none;
+    visibility: hidden;
+}
+
+.show {
+    display: flex;
+    visibility: visible;
+}
+
+@media (max-width: 500px) {
+
+    .box {
+        padding: 1rem;
+    }
+
+    .box > h1 {
+        margin-bottom: 10px;
+    }
+
+    .confirm-field {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
